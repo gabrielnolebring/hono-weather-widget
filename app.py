@@ -85,7 +85,6 @@ def fetch_weather():
                 except Exception as e:
                     print(f"⚠️ Kunde inte läsa dag {i}: {e}")
 
-            input("👉 Tryck ENTER för att fortsätta och stänga browsern...")
             browser.close()
 
             return {
